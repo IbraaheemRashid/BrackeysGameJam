@@ -34,10 +34,21 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Wall","path":"sprites/Wall/Wall.yy",},},
+    {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},},
+    {"id":{"name":"s_floor_tile","path":"sprites/s_floor_tile/s_floor_tile.yy",},},
+    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
+    {"id":{"name":"Barrel","path":"sprites/Barrel/Barrel.yy",},},
+    {"id":{"name":"wall_tiles","path":"tilesets/wall_tiles/wall_tiles.yy",},},
+    {"id":{"name":"oBarrel","path":"objects/oBarrel/oBarrel.yy",},},
+    {"id":{"name":"s_wall_tiles","path":"sprites/s_wall_tiles/s_wall_tiles.yy",},},
+    {"id":{"name":"Door","path":"sprites/Door/Door.yy",},},
+    {"id":{"name":"floor_tiles","path":"tilesets/floor_tiles/floor_tiles.yy",},},
+    {"id":{"name":"StartingRoom","path":"rooms/StartingRoom/StartingRoom.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"StartingRoom","path":"rooms/StartingRoom/StartingRoom.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
