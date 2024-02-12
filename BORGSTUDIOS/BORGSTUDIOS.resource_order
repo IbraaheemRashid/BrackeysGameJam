@@ -20,5 +20,13 @@
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"oWall","order":17,"path":"objects/oWall/oWall.yy",},
     {"name":"oPlayer","order":16,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oDoor","order":2,"path":"objects/oDoor/oDoor.yy",},
+    {"name":"s_floor_tile","order":16,"path":"sprites/s_floor_tile/s_floor_tile.yy",},
+    {"name":"Sprite6","order":18,"path":"sprites/Sprite6/Sprite6.yy",},
+    {"name":"Barrel","order":1,"path":"sprites/Barrel/Barrel.yy",},
+    {"name":"wall_tiles","order":1,"path":"tilesets/wall_tiles/wall_tiles.yy",},
+    {"name":"oBarrel","order":1,"path":"objects/oBarrel/oBarrel.yy",},
+    {"name":"s_wall_tiles","order":17,"path":"sprites/s_wall_tiles/s_wall_tiles.yy",},
+    {"name":"Door","order":2,"path":"sprites/Door/Door.yy",},
   ],
 }
