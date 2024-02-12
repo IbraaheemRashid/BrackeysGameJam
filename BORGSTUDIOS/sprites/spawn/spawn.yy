@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "s_floor_tile",
+  "name": "spawn",
   "bbox_bottom": 31,
   "bbox_left": 0,
   "bbox_right": 31,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"607b298f-7c24-4a77-9c65-9999790f37eb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"10e2a01d-9d12-4961-a631-e7ec58b37235",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c588e0cb-cc8f-4a7a-baa2-fdc891ae9b24","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b8fbda43-991f-43f1-a06f-8065333db4a1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "s_floor_tile",
+    "name": "spawn",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"607b298f-7c24-4a77-9c65-9999790f37eb","path":"sprites/s_floor_tile/s_floor_tile.yy",},},},"Disabled":false,"id":"4be3fc8b-9fd1-4fc3-8145-46c60f0cb76c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"10e2a01d-9d12-4961-a631-e7ec58b37235","path":"sprites/spawn/spawn.yy",},},},"Disabled":false,"id":"7101e4b1-3263-4345-9209-7a6b1e67f64f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

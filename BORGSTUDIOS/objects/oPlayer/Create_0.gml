@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-my_speed = 4;
+hsp = 0;
+vsp = 0;
+walksp = 4;
+
 
 
