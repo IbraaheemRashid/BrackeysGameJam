@@ -1,4 +1,13 @@
 {
-  "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Player","order":1,"path":"folders/Player.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"sPlayerUp","order":2,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
+    {"name":"sPlayerLeft","order":4,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
+    {"name":"sPlayerRight","order":3,"path":"sprites/sPlayerRight/sPlayerRight.yy",},
+    {"name":"sPlayerDown","order":5,"path":"sprites/sPlayerDown/sPlayerDown.yy",},
+  ],
+=======
 }

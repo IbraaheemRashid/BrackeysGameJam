@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Player",
+    "path": "folders/Player.yy",
   },
   "parentObjectId": null,
   "persistent": true,
@@ -29,9 +29,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sPlayer",
-    "path": "sprites/sPlayer/sPlayer.yy",
+    "name": "sPlayerDown",
+    "path": "sprites/sPlayerDown/sPlayerDown.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sPlayerDown",
+    "path": "sprites/sPlayerDown/sPlayerDown.yy",
+  },
   "visible": true,
 }

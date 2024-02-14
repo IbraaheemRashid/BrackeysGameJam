@@ -5,13 +5,21 @@ var _left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 var _up = keyboard_check(vk_up) or keyboard_check(ord("W"));
 var _down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 
+//player movement -> (open region)
+#region
 // check if movement will be left or right 
 var moveH = _right - _left;
 var moveV = _down - _up;
+moveDir = point_direction( 0, 0, moveH, moveV );
 
 // set speed based on left or right
-hsp = moveH * walksp;
-vsp = moveV * walksp;
+var spd = 0;
+var inputLevel = point_distance( 0, 0, moveH, moveV);
+inputLevel = clamp( inputLevel, 0 , 1);
+spd = walksp * inputLevel;
+
+hsp = lengthdir_x(spd, moveDir);
+vsp = lengthdir_y(spd, moveDir);
 
 //move_and_collide(_xinput * my_speed, _yinput * my_speed, wall_tiles)
 
@@ -34,13 +42,19 @@ if (tile_meeting(x, y +vsp, "Walls")){
 
 y = y + vsp;
 
-
+if (place_meeting(x,y,oWarp)){
+	room_goto_next()
+}
+=======
 #endregion
 
 
 
 //player aiming
-/*		centerY = y + centerYOFFSet;
+Armada
+		centerY = y + centerYOFFSet;
+=======
+
 		
 		//aim
 		aimDir = point_direction( x, centerY, mouse_x, mouse_y);
@@ -56,7 +70,9 @@ y = y + vsp;
 	{
 		image_index = 0;			//when we are not moving the sprites legs do not need to move
 	}
-
+Armada
+*/
+=======
 	//set the player sprite
 	mask_index = sprite[3];			//makes sure the sprite keeps the same collision box
 	sprite_index = sprite[face];
