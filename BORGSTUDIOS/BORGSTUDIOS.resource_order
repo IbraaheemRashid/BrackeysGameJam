@@ -1,20 +1,12 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Player","order":1,"path":"folders/Player.yy",},
+  ],
   "ResourceOrderSettings": [
-    {"name":"sPlayer","order":4,"path":"sprites/sPlayer/sPlayer.yy",},
-    {"name":"sWall","order":3,"path":"sprites/sWall/sWall.yy",},
-    {"name":"oWall","order":5,"path":"objects/oWall/oWall.yy",},
-    {"name":"oPlayer","order":4,"path":"objects/oPlayer/oPlayer.yy",},
-    {"name":"oSpawn","order":2,"path":"objects/oSpawn/oSpawn.yy",},
-    {"name":"spawn","order":5,"path":"sprites/spawn/spawn.yy",},
-    {"name":"oWarp","order":3,"path":"objects/oWarp/oWarp.yy",},
-    {"name":"Wall","order":2,"path":"sprites/Wall/Wall.yy",},
-    {"name":"oWall","order":5,"path":"objects/oWall/oWall.yy",},
-    {"name":"oDoor","order":1,"path":"objects/oDoor/oDoor.yy",},
-    {"name":"s_floor_tile","order":7,"path":"sprites/s_floor_tile/s_floor_tile.yy",},
-    {"name":"FireRoom1","order":1,"path":"rooms/FireRoom1/FireRoom1.yy",},
-    {"name":"Barrel","order":1,"path":"sprites/Barrel/Barrel.yy",},
-    {"name":"warp","order":6,"path":"sprites/warp/warp.yy",},
-    {"name":"s_wall_tiles","order":8,"path":"sprites/s_wall_tiles/s_wall_tiles.yy",},
+    {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"sPlayerUp","order":2,"path":"sprites/sPlayerUp/sPlayerUp.yy",},
+    {"name":"sPlayerLeft","order":4,"path":"sprites/sPlayerLeft/sPlayerLeft.yy",},
+    {"name":"sPlayerRight","order":3,"path":"sprites/sPlayerRight/sPlayerRight.yy",},
+    {"name":"sPlayerDown","order":5,"path":"sprites/sPlayerDown/sPlayerDown.yy",},
   ],
 }
