@@ -42,19 +42,13 @@ if (tile_meeting(x, y +vsp, "Walls")){
 
 y = y + vsp;
 
-if (place_meeting(x,y,oWarp)){
-	room_goto_next()
-}
-=======
+
 #endregion
 
 
 
 //player aiming
-Armada
 		centerY = y + centerYOFFSet;
-=======
-
 		
 		//aim
 		aimDir = point_direction( x, centerY, mouse_x, mouse_y);
@@ -70,9 +64,7 @@ Armada
 	{
 		image_index = 0;			//when we are not moving the sprites legs do not need to move
 	}
-Armada
 */
-=======
 	//set the player sprite
 	mask_index = sprite[3];			//makes sure the sprite keeps the same collision box
 	sprite_index = sprite[face];

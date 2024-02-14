@@ -12,6 +12,9 @@
   "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
+=======
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
@@ -30,7 +33,6 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSpawn","path":"objects/oSpawn/oSpawn.yy",},},
     {"id":{"name":"spawn","path":"sprites/spawn/spawn.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"oWarp","path":"objects/oWarp/oWarp.yy",},},
     {"id":{"name":"Wall","path":"sprites/Wall/Wall.yy",},},
     {"id":{"name":"tile_meeting","path":"scripts/tile_meeting/tile_meeting.yy",},},
@@ -38,6 +40,7 @@
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},},
     {"id":{"name":"sPlayerUp","path":"sprites/sPlayerUp/sPlayerUp.yy",},},
     {"id":{"name":"s_floor_tile","path":"sprites/s_floor_tile/s_floor_tile.yy",},},
+    {"id":{"name":"test","path":"rooms/test/test.yy",},},
     {"id":{"name":"FireRoom1","path":"rooms/FireRoom1/FireRoom1.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"Barrel","path":"sprites/Barrel/Barrel.yy",},},
@@ -55,7 +58,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"StartingRoom","path":"rooms/StartingRoom/StartingRoom.yy",},},
     {"roomId":{"name":"FireRoom1","path":"rooms/FireRoom1/FireRoom1.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"test","path":"rooms/test/test.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
