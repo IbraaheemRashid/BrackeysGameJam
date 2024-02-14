@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWall",
+  "name": "oWarp",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,9 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sWall",
-    "path": "sprites/sWall/sWall.yy",
+    "name": "warp",
+    "path": "sprites/warp/warp.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
