@@ -23,35 +23,68 @@ vsp = lengthdir_y(spd, moveDir);
 
 //move_and_collide(_xinput * my_speed, _yinput * my_speed, wall_tiles)
 
+
+if (tile_meeting(x+hsp, y, "Walls")){
+    while(!tile_meeting(x+sign(hsp), y, "Walls")){
+        x = x + sign(hsp);
+    }
+    hsp = 0
+=======
 if (tile_meeting(x+hsp,y, "Walls")){
 	while(!tile_meeting(x+sign(hsp),y, "Walls")){
 		x = x + sign(hsp);
 	}
 	hsp = 0
+
 }
 
 x = x + hsp;
 
 // collision vertical
 if (tile_meeting(x, y +vsp, "Walls")){
-	while(!tile_meeting(x, y+sign(vsp), "Walls")){
-		y = y + sign(vsp);
-	}
-	vsp = 0
+    while(!tile_meeting(x, y+sign(vsp), "Walls")){
+        y = y + sign(vsp);
+    }
+    vsp = 0
 }
 
 y = y + vsp;
 
+
+=======
 if (place_meeting(x,y,oWarp)){
 	room_goto_next()
 }
 =======
+
 #endregion
 
 
 
 //player aiming
-Armada
+
+        centerY = y + centerYOFFSet;
+
+        //aim
+        aimDir = point_direction( x, centerY, mouse_x, mouse_y);
+
+//sprite control
+#region
+    // make sure the player is facing the correct direction
+    face = round( aimDir/90 );
+    if face == 4 { face = 0; };
+
+    //animate
+    /*if hsp == 0 && vspd == 0
+    {
+        image_index = 0;            //when we are not moving the sprites legs do not need to move
+    }
+*/
+    //set the player sprite
+    mask_index = sprite[3];            //makes sure the sprite keeps the same collision box
+    sprite_index = sprite[face];
+    #endregion
+=======
 		centerY = y + centerYOFFSet;
 =======
 
@@ -77,6 +110,3 @@ Armada
 	mask_index = sprite[3];			//makes sure the sprite keeps the same collision box
 	sprite_index = sprite[face];
 	#endregion
-
-
-
